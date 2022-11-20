@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Day 1</title>
+    
+</head>
+<body>
+    <h2>Q1. Difference between flex-row and flex-column</h2>
+    <br>
+    <div class="q1">
+        <p>Flex-row and Flex-column are the properties of display-flex. They are given to set direction of the items in the flex i.e they are arranged either in row-wise or in column-wise <br>
+            Flex-row is is the default direction in the flex. It is ued  to align item in rows. <br>
+            Flex-column is used when we want the items in the flex to be displayed in column view.
+        </p>
+    </div>
+
+    <br>
+    <h2>Q2. Explain inline, internal and external stylesheet.</h2>
+    <div class="q2">
+        <p>
+            Inline, Internal and external stylesheet are the ways in which we can style any webpage. <br>
+            <strong>Inline: </strong>In inline css we add the styling properties in the tags itself that's why the name inline css. Inline css is not recommended as it is not efficient because we have to add the styling propertiesto every tag present. <br>
+            <strong>Internal CSS: </strong>Internal CSS is done by adding &gt;style&lt; tag in the &gt;head&lt; tag. Then in the style tag we add the element we want to style. They can done by using the element name, by selecting ID(#id) and by selecting class name (.class_name). 
+            <strong>External CSS: </strong>The external style is done by creating another file with .css extension and linking the .css page to the html file by using the 'link' tag in the head element. All the styling by using the element name, by selecting ID(#id) and by selecting class name (.class_name).  
+        </p>
+    </div>
+    <br>
+    <h2>Q3. Justify-content allows you to do what?</h2>
+    <div class="q3">
+        <p>
+            Justify content is given when the flex-direction is row. It is used to align the position of the items at start, end or center of the flex and also if we want to spacing between the items. <br>
+
+        </p>
+    </div>
+    <br>
+    <h2>Q4. Difference between absolute and relative positioning</h2>
+    <div class="q4">
+        <p> 
+            Position Relative: The element is positioned according to the normal flow of the document, and then offset relative to itself based on the values of top, right, bottom, and left. The offset does not affect the position of any other elements; thus, the space given for the element in the page layout is the same as if position were static.
+            <br>
+            Position Absolute: The element is removed from the normal document flow, and no space is created for the element in the page layout. It is positioned relative to its closest positioned ancestor, if any; otherwise, it is placed relative to the initial containing block. Its final position is determined by the values of top, right, bottom, and left.
+        </p>
+    </div>
+    <br>
+    <h2>Q5. What is grid-template-columns used for?</h2>
+    <div class="q5">
+        <p>
+            <strong>'grid-template-columns'</strong> is a property used when display is set to grid. This property is used to set the number of columns we want to create in the grid. If we want to create 3 columns we can use this property as: <br>
+            <strong>grid-template-columns: auto auto auto;</strong><br> This will 3 create columns  of equal width. 
+        </p>
+    </div>
+    <br>
+    <h2>Q6. What is the z-index in CSS?</h2>
+    <div class="q6">
+        <p>
+            The <strong>z-index</strong> CSS property sets the z-order of a positioned element and its descendants or flex items. Overlapping elements with a larger z-index cover those with a smaller one.
+        </p>
+    </div>
+    <br>
+    <h2>Q7. What is the difference between padding and margin?</h2>
+    <div class="q7">
+        <p>
+         An element's padding area is the space between its content and its border while margin is the area between border of the content and webpage. Padding is used to set the position of the content with respect to its border while margin positions the content with respect to the webpage.
+        </p>
+    </div>
+
+</body>
+</html>
